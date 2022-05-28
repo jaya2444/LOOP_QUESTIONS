@@ -1,0 +1,10 @@
+n=int(input("enter the number"))
+sum=0
+i=1
+while i<=n:
+    a=((n//100)%10)*100
+    b=((n//10)%10)*10
+    c=n%10
+    sum=a+b+c
+    i+=1
+print(sum,"=",a,"+",b,"+",c)
